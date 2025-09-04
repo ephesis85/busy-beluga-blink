@@ -6,7 +6,8 @@ import { cn } from "@/lib/utils";
 import { useIsMobile } from "@/hooks/use-mobile";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
-import { Menu } from "lucide-react";
+import { Menu, Music } from "lucide-react"; // Import Music icon
+import { Link } from "react-router-dom"; // Import Link
 
 interface MainLayoutProps {
   children: React.ReactNode;
